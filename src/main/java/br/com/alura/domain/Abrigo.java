@@ -5,6 +5,7 @@ public class Abrigo {
     private String nome;
     private String telefone;
     private String email;
+    private Pet[] pets;
 
     public Abrigo() {
     }
@@ -29,5 +30,29 @@ public class Abrigo {
 
     public String getEmail() {
         return email;
+    }
+
+    public Pet[] getPets() {
+        return pets;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setPets(Pet[] pets) {
+        this.pets = pets;
     }
 }
